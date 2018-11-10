@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>main</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="//unpkg.com/d3"></script>
+    <script src="//unpkg.com/d3-geo-projection"></script>
+
+    <style type="text/css">
+      body {
+        position: relative;
+      }
+      svg {
+        border: 1px solid #bbb;
+      }
+      #tip {
+        position: absolute;
+        opacity: 0;
+        padding: 1em;
+        background: #555;
+        border: 1px solid #ddd;
+        border-radius: 2px;
+        font-family: Avenir, sans-serif;
+        color: white;
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <div id="tip">Hullo?</div>
+    <script src="app.js"></script>
+  </body>
+</html>
