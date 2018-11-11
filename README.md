@@ -1,6 +1,6 @@
 # Ada D3 workshop
 
-<img src="https://github.com/larsvers/ada-d3-workshop-short/raw/master/images/ada_d3.png" width="30%">
+<img src="https://github.com/larsvers/ada-d3-workshop-short/raw/master/images/ada_d3.png" width="20%">
 
 <br>
 
