@@ -1,4 +1,3 @@
-// 1. Load data.
 d3.csv('fruit_sales.csv').then(fruitData => {
   // Circles.
   d3.select('svg')
