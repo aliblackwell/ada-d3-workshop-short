@@ -1,4 +1,5 @@
-d3.csv('fruit_sales_2018.csv').then(fruitData => {
+// 1. Load data.
+d3.csv('fruit_sales.csv').then(fruitData => {
   // Circles.
   d3.select('svg')
     .selectAll('circle')
@@ -6,7 +7,7 @@ d3.csv('fruit_sales_2018.csv').then(fruitData => {
     .enter()
     .append('circle')
     .attr('r', 3)
-    .attr('cx', d => d.Sales)
+    .attr('cx', d => +d.Sales)
     .attr('cy', (d, i) => i * 40 + 40);
 
   // Text.
